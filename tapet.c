@@ -58,7 +58,10 @@ int main(int argc, char *argv[])
 
 		XKillClient(dpy, AllTemporary);
 		XSetCloseDownMode(dpy, RetainPermanent);
+
+		XSetWindowBackgroundPixmap(dpy, root, bg);
 		XClearWindow(dpy, root);
+
 		XFlush(dpy);
 		XSync(dpy, False);
 
