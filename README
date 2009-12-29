@@ -1,0 +1,12 @@
+Tapet
+
+Tapet is yet another application to set your X wallpaper. It's only feature is
+currently that it allows you to set the X and/or Y offset of the wallpape.
+
+Features:
+ - Runs on babies!
+ - Does no error checking because I'm a lazy bastard.
+ - Let's you set X and/or Y offset on images.
+
+Requirements:
+ - imlib2 (http://docs.enlightenment.org/api/imlib2/html/index.html)
